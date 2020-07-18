@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Administración</h1>
+    <h1 class="text-center my-3">Administración</h1>
     <table class="table table-dark bg-info mb-3">
       <thead>
         <tr>
@@ -59,3 +59,10 @@ export default {
   name: "Administracion"
 };
 </script>
+
+<style scoped lang="scss">
+h1 {
+  color: rgb(1, 119, 119);
+}
+
+</style>>

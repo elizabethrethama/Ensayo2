@@ -5,7 +5,7 @@
           <div class="form-group">
              <label for="exampleFormControlTextarea1">Agregar Comentario</label>
              <textarea class="form-control" rows="3" v-model="comentario"></textarea>
-               <button class="btn btn-primary mb-5" @click.prevent="guardarComentario">Enviar</button>
+               <button class="btn btn-primary mb-5 bg-info" @click.prevent="guardarComentario">Enviar</button>
           </div>
       </form>
 
@@ -41,6 +41,9 @@ export default {
 }
 </script>
 
-<style >
+<style scoped lang="scss">
+h1 {
+  color: rgb(1, 119, 119);
+}
 
-</style>
+</style>>

@@ -40,3 +40,10 @@ export default {
   name: "Favoritos"
 };
 </script>
+
+<style scoped lang="scss">
+h1 {
+  color: rgb(1, 119, 119);
+}
+
+</style>>

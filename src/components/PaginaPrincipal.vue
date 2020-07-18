@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1 class="text-center my-3">Pagina Principal</h1>
+    <h1 class="text-center my-3 ">Pagina Principal</h1>
     <div class="row">
       <div
         class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 my-4"
@@ -11,8 +11,8 @@
           <img :src="'item.imagen'" class="image" :alt="item.image" />
           <div class="card-body">
             <h5 class="card-title">{{item.name}}</h5>
-            <a class="btn btn-primary mx-3" @click.prevent="enviarInfoComentario(index)">Comentario</a>
-            <a :href="item.url" class="btn btn-primary" target="_blank">Ir al sitio</a>
+            <a class="btn btn-primary mx-3 bg-info" @click.prevent="enviarInfoComentario(index)">Comentario</a>
+            <a :href="item.url" class="btn btn-primary bg-info" target="_blank">Ir al sitio</a>
           </div>
         </div>
       </div>
@@ -48,8 +48,15 @@ export default {
 };
 </script>
 
-
 <style scoped lang="scss">
+.container {
+  width: 100%;
+}
+
+h1 {
+  color: rgb(1, 119, 119);
+}
+
 </style>>
 
 

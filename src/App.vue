@@ -1,26 +1,26 @@
 <template>
   <div id="app">
     <navegacion></navegacion>
-      <router-view/>
-     <footerr></footerr>
+    <router-view />
+    <footerr></footerr>
   </div>
 </template>
 
 <script>
-import Navegacion from './components/Navegacion.vue';
-import Footerr from './components/Footerr.vue';
-import {conexApi} from "./config/conexionApi";
+import Navegacion from "./components/Navegacion.vue";
+import Footerr from "./components/Footerr.vue";
+import { conexApi } from "./config/conexionApi";
 
 export default {
-  name: 'App',
-   components: {
-     Navegacion,
-     Footerr,
-   },
-   mounted() {
+  name: "App",
+  components: {
+    Navegacion,
+    Footerr
+  },
+  mounted() {
     conexApi();
-   },
-}
+  }
+};
 </script>
 
 <style lang="scss">
@@ -32,16 +32,19 @@ export default {
   color: #2c3e50;
 }
 
+
+
 #nav {
   padding: 30px;
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #2c3e50;    
 
     &.router-link-exact-active {
       color: #42b983;
     }
   }
+  
 }
 </style>
