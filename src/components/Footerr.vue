@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: "FooterApp"
+  name: "Footerr"
 };
 </script>

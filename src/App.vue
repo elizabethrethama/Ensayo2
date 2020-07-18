@@ -2,20 +2,20 @@
   <div id="app">
     <navegacion></navegacion>
       <router-view/>
-     <footer-app></footer-app>
+     <footerr></footerr>
   </div>
 </template>
 
 <script>
 import Navegacion from './components/Navegacion.vue';
-import FooterApp from './components/FooterApp.vue';
+import Footerr from './components/Footerr.vue';
 import {conexApi} from "./config/conexionApi";
 
 export default {
   name: 'App',
    components: {
      Navegacion,
-     FooterApp
+     Footerr,
    },
    mounted() {
     conexApi();

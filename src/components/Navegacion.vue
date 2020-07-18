@@ -1,7 +1,7 @@
 <template>
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-         <router-link class="navbar-brand" to="/">Rick And Morty</router-link>
+         <router-link class="navbar-brand" to="/paginaPrincipal">Rick And Morty</router-link>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
          </button>
@@ -11,7 +11,7 @@
                  <router-link class="nav-link" to="/">Opiniones</router-link>
                </li>
                <li class="nav-item">
-                 <router-link class="nav-link" to="/articulos">Favoritos</router-link>
+                 <router-link class="nav-link" to="/Favoritos">Favoritos</router-link>
                </li>
                <li class="nav-item">
                  <router-link class="nav-link" to="/administracion">Administracion</router-link>

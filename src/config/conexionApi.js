@@ -5,7 +5,7 @@ export function conexApi() {
   axios.get('https://rickandmortyapi.com/api/character/')
     .then(response=>{
        store.dispatch('infoApi',response);
-        console.log(response)
+        console.log(response);     
     }).catch(error=> {
         console.error(error);
       })

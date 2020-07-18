@@ -1,5 +1,5 @@
 <template>
-    <div class="container"> 
+    <div class="container">       
       <h1>Comentarios de {{nombre}}</h1>
       <form> 
           <div class="form-group">
